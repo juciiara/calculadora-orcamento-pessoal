@@ -1,15 +1,25 @@
 # 📊 Calculadora de Orçamento Pessoal
 
-[![GitHub repo size](https://img.shields.io/github/repo-size/juciiara/calculadora-orcamento)](https://github.com/juciiara/calculadora-orcamento)
-[![GitHub stars](https://img.shields.io/github/stars/juciiara/calculadora-orcamento?style=social)](https://github.com/juciiara/calculadora-orcamento)
+[![GitHub repo size](https://img.shields.io/github/repo-size/juciiara/calculadora-orcamento-pessoal)](https://github.com/juciiara/calculadora-orcamento-pessoal)
+[![GitHub stars](https://img.shields.io/github/stars/juciiara/calculadora-orcamento-pessoal?style=social)](https://github.com/juciiara/calculadora-orcamento-pessoal)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
 
 ## 💻 Sobre o Projeto
 Este é um projeto simples de **Calculadora de Orçamento Pessoal**, desenvolvido utilizando **React**.  
-Permite ao usuário registrar suas despesas, visualizar um resumo e acompanhar o total gasto.  
+Permite ao usuário registrar despesas, visualizar um resumo por categoria, acompanhar o total gasto e analisar os dados em um **gráfico de pizza interativo**.  
 Este foi meu **primeiro projeto em React**, focado em aplicar conceitos fundamentais de front-end.
+
+---
+
+## 🖼️ Screenshot da Aplicação
+
+<p align="center">
+  <img src="screenshot.png" alt="Exemplo da Calculadora de Orçamento" width="600">
+</p>
+
+*(Coloque a imagem `screenshot.png` na raiz do projeto, na mesma pasta do README.md.)*
 
 ---
 
@@ -18,37 +28,41 @@ Este foi meu **primeiro projeto em React**, focado em aplicar conceitos fundamen
 - JavaScript (ES6+)  
 - HTML5  
 - CSS3  
+- Recharts (para gráficos)
 
 ---
 
 ## 🎯 Funcionalidades
-- Adicionar despesas com **descrição**, **valor** e **categoria**.  
-- Exibir lista de despesas adicionadas.  
-- Cálculo automático do total gasto.  
-- Remover despesas individualmente.  
+- Adicionar despesas com **descrição**, **valor** e **categoria**  
+- Validação para evitar valores inválidos  
+- Exibir lista de despesas adicionadas  
+- Cálculo automático do **total de gastos**  
+- Resumo mensal por categoria em tabela  
+- Exibição dos gastos em **gráfico de pizza**  
+- Mensagem de erro quando algum campo estiver incorreto
 
 ---
 
 ## 🚀 Como Rodar o Projeto
 
-**Clone este repositório**
-- bash
-git clone https://github.com/juciiara/calculadora-orcamento.git
+**1. Clone este repositório**
+```bash
+git clone https://github.com/juciiara/calculadora-orcamento-pessoal.git
 
-1-Entre na pasta do projeto
-cd calculadora-orcamento
+2. Entre na pasta do projeto
+-- cd calculadora-orcamento-pessoal
 
-2-Instale as dependências  
-- npm install
+3. Instale as dependências
+-- npm install
 
-3-Inicie o servidor de desenvolvimento
-- npm start
+4. Inicie o servidor de desenvolvimento
+-- npm start
 
-4-Abra no navegador
+5. Abra no navegador
 http://localhost:3000
 
 📂 Estrutura do Projeto
-calculadora-orcamento/
+calculadora-orcamento-pessoal/
 ├─ public/
 ├─ src/
 │  ├─ components/
@@ -60,12 +74,14 @@ calculadora-orcamento/
 │  ├─ App.css
 │  └─ index.js
 ├─ package.json
-└─ README.md
+├─ README.md
+└─ screenshot.png
 
-## 📬 Contato
+📬 Contato
 
-GitHub: [Meu GitHub](https://github.com/juciiara)
-
+GitHub: @juciiara
 
 📜 Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE
+ para mais detalhes.
