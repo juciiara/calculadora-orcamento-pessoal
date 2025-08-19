@@ -46,7 +46,7 @@ Este foi meu **primeiro projeto em React**, focado em aplicar conceitos fundamen
 ## 🚀 Como Rodar o Projeto
 
 **1. Clone este repositório**
-```bash
+bash
 git clone https://github.com/juciiara/calculadora-orcamento-pessoal.git
 
 2. Entre na pasta do projeto
@@ -78,8 +78,7 @@ calculadora-orcamento-pessoal/
 └─ screenshot.png
 
 📬 Contato
-
-GitHub: @juciiara
+[GitHub](https://github.com/juciiara)
 
 📜 Licença
 
